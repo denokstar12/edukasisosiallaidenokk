@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoVision AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<section id="loginPage" class="page active">
+    <div class="login-box">
+        <h1>EcoVision AI 🌍</h1>
+        <p>Klasifikasi Lingkungan Masyarakat Berbasis AI</p>
+        <input type="text" id="username" placeholder="Masukkan Nama">
+        <button onclick="login()">Login</button>
+    </div>
+</section>
+
+<!-- MAIN PAGE -->
+<section id="mainPage" class="page">
+    <nav>
+        <h2>EcoVision AI</h2>
+        <button onclick="logout()">Logout</button>
+    </nav>
+
+    <div class="content">
+
+        <!-- KLASIFIKASI 1 -->
+        <div class="card">
+            <img src="sampah-plastik.jpg" alt="Sampah Plastik">
+            <h3>Lingkungan Tercemar – Sampah Plastik ♻️</h3>
+            <p>
+                AI mendeteksi tumpukan sampah plastik yang tidak terkelola.
+                Kondisi ini sering terjadi di lingkungan masyarakat.
+            </p>
+            <p class="edu">
+                <strong>Edukasi Sosial:</strong>  
+                Terapkan 3R (Reduce, Reuse, Recycle) untuk mencegah banjir
+                dan penyebaran penyakit.
+            </p>
+        </div>
+
+        <!-- KLASIFIKASI 2 -->
+        <div class="card">
+            <img src="pencemaran.jpg" alt="Lingkungan Tercemar">
+            <h3>Lingkungan Tercemar – Polusi & Limbah 🏭</h3>
+            <p>
+                AI mengidentifikasi pencemaran akibat aktivitas industri
+                dan pembuangan sampah sembarangan.
+            </p>
+            <p class="edu">
+                <strong>Edukasi Sosial:</strong>  
+                Kolaborasi masyarakat dan pemerintah penting untuk
+                mengurangi polusi dan meningkatkan kualitas hidup.
+            </p>
+        </div>
+
+        <!-- KLASIFIKASI 3 -->
+        <div class="card">
+            <img src="lingkungan-bersih.jpg" alt="Lingkungan Bersih">
+            <h3>Lingkungan Bersih & Sehat 🌿</h3>
+            <p>
+                AI mendeteksi area hijau yang bersih dan tertata,
+                mencerminkan kepedulian masyarakat terhadap lingkungan.
+            </p>
+            <p class="edu">
+                <strong>Edukasi Sosial:</strong>  
+                Lingkungan hijau meningkatkan kesehatan fisik dan mental
+                serta memperkuat interaksi sosial.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
